@@ -68,7 +68,7 @@ GAME
 		DIFFICULTY
 		{
 			AutoHireCrews = False
-			MissingCrewsRespawn = True
+			MissingCrewsRespawn = False
 			BypassEntryPurchaseAfterResearch = True
 			AllowStockVessels = False
 			IndestructibleFacilities = False

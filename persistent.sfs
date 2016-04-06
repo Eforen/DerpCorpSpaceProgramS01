@@ -11,8 +11,8 @@ GAME
 	editor = None
 	flag = Squad/Flags/trees
 	launchID = 6
-	modded = False
-	loadedInfo =  - Environment Info - Win32NT 7FFFFFFFFFFFFFFF  Args: KSP_x64.exe  *** Mod DLLs found: - Stock assembly: Assembly-CSharp v0.0.0.0 - Stock assembly: KSPSteamCtrlr v0.0.1.33 - Stock assembly: SaveUpgradePipeline.Scripts v1.0.0.2 / v1.0.0.21 - Stock assembly: Steamworks.NET v8.0.0.0 / v8.0.0 *** Folders and files in GameData: - Stock folder: Squad *** 
+	modded = True
+	loadedInfo =  - Environment Info - Win32NT 7FFFFFFFFFFFFFFF  Args: KSP_x64.exe  *** Mod DLLs found: - Stock assembly: Assembly-CSharp v0.0.0.0 - Stock assembly: KSPSteamCtrlr v0.0.1.33 - Stock assembly: SaveUpgradePipeline.Scripts v1.0.0.2 / v1.0.0.21 - Stock assembly: Steamworks.NET v8.0.0.0 / v8.0.0 *** Folders and files in GameData: - EforenStreaming - Stock folder: Squad *** 
 	PARAMETERS
 	{
 		preset = Normal
@@ -105,7 +105,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 3178.53321288814
+		update = 3831.35321288756
 		version = 1.1.0
 		WEIGHTS
 		{
@@ -502,6 +502,54 @@ GAME
 			}
 			CONTRACT
 			{
+				guid = cfb95a36-1d90-4775-9645-efb6ced7f293
+				type = TourismContract
+				prestige = 1
+				seed = 939780144
+				state = Offered
+				agent = Rokea Inc
+				deadlineType = Floating
+				expiryType = Floating
+				values = 17857.1423888207,38035713.288188,0,0,0,0,24.01372,12,19508.6623888194,0,0,0
+				gender = 0
+				preposition = right here on Kerbin
+				homeDestinations = True
+				tourists = Ferry Kerman|Malinne Kerman
+				PARAM
+				{
+					name = KerbalTourParameter
+					state = Incomplete
+					values = 12188,0,0,0,0
+					kerbalName = Ferry Kerman
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 4062,0,0,0,0
+						targetBody = 1
+						targetType = Suborbit
+						kerbalName = Ferry Kerman
+					}
+				}
+				PARAM
+				{
+					name = KerbalTourParameter
+					state = Incomplete
+					values = 12188,0,0,0,0
+					kerbalName = Malinne Kerman
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 4062,0,0,0,0
+						targetBody = 1
+						targetType = Suborbit
+						kerbalName = Malinne Kerman
+					}
+				}
+			}
+			CONTRACT
+			{
 				guid = d573a54f-06ce-4334-b1cc-eb6f81bd7f1d
 				type = PartTest
 				prestige = 1
@@ -563,6 +611,63 @@ GAME
 						values = 0,0,0,0,0
 						minSpd = 1710
 						maxSpd = 2090
+					}
+				}
+			}
+			CONTRACT
+			{
+				guid = 411c2ffb-d574-46c3-9cf9-dd3f0d5e9536
+				type = PartTest
+				prestige = 1
+				seed = 939490133
+				state = Offered
+				agent = Rockomax Conglomerate
+				deadlineType = Floating
+				expiryType = Floating
+				values = 34754.6251178843,7402735.15010935,19433.3345666726,53441.6712166668,20988.0016822815,6,12.55986,9,36406.1251178831,0,0,0
+				part = decoupler1-2
+				haul = False
+				dest = 1
+				sit = SUB_ORBITAL
+				exp = True
+				PARAM
+				{
+					name = PartTest
+					state = Incomplete
+					values = 0,0,0,0,0
+					part = decoupler1-2
+					body = Kerbin
+					situation = SUB_ORBITAL
+					uniqueID = 0.9994820654389831
+					haul = False
+					repeatability = ONCEPERPART
+					notes = To perform the test, activate the part through the staging sequence when all test conditions are met.
+					PARAM
+					{
+						name = ReachDestination
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						dest = 1
+						title = 
+					}
+					PARAM
+					{
+						name = ReachSituation
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						sit = SUB_ORBITAL
+						title = 
+					}
+					PARAM
+					{
+						name = ReachAltitudeEnvelope
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						minAlt = 210000
+						maxAlt = 220000
 					}
 				}
 			}
@@ -653,111 +758,6 @@ GAME
 					values = 0,0,0,0,0
 					targetBody = 1
 					targetType = ORBIT
-				}
-			}
-			CONTRACT
-			{
-				guid = 411c2ffb-d574-46c3-9cf9-dd3f0d5e9536
-				type = PartTest
-				prestige = 1
-				seed = 939490133
-				state = Offered
-				agent = Rockomax Conglomerate
-				deadlineType = Floating
-				expiryType = Floating
-				values = 34754.6251178843,7402735.15010935,19433.3345666726,53441.6712166668,20988.0016822815,6,12.55986,9,36406.1251178831,0,0,0
-				part = decoupler1-2
-				haul = False
-				dest = 1
-				sit = SUB_ORBITAL
-				exp = True
-				PARAM
-				{
-					name = PartTest
-					state = Incomplete
-					values = 0,0,0,0,0
-					part = decoupler1-2
-					body = Kerbin
-					situation = SUB_ORBITAL
-					uniqueID = 0.9994820654389831
-					haul = False
-					repeatability = ONCEPERPART
-					notes = To perform the test, activate the part through the staging sequence when all test conditions are met.
-					PARAM
-					{
-						name = ReachDestination
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						dest = 1
-						title = 
-					}
-					PARAM
-					{
-						name = ReachSituation
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						sit = SUB_ORBITAL
-						title = 
-					}
-					PARAM
-					{
-						name = ReachAltitudeEnvelope
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						minAlt = 210000
-						maxAlt = 220000
-					}
-				}
-			}
-			CONTRACT
-			{
-				guid = cfb95a36-1d90-4775-9645-efb6ced7f293
-				type = TourismContract
-				prestige = 1
-				seed = 939780144
-				state = Offered
-				agent = Rokea Inc
-				deadlineType = Floating
-				expiryType = Floating
-				values = 17857.1423888207,38035713.288188,0,0,0,0,24.01372,12,19508.6623888194,0,0,0
-				gender = 0
-				preposition = right here on Kerbin
-				homeDestinations = True
-				tourists = Ferry Kerman|Malinne Kerman
-				PARAM
-				{
-					name = KerbalTourParameter
-					state = Incomplete
-					values = 12188,0,0,0,0
-					kerbalName = Ferry Kerman
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 4062,0,0,0,0
-						targetBody = 1
-						targetType = Suborbit
-						kerbalName = Ferry Kerman
-					}
-				}
-				PARAM
-				{
-					name = KerbalTourParameter
-					state = Incomplete
-					values = 12188,0,0,0,0
-					kerbalName = Malinne Kerman
-					PARAM
-					{
-						name = KerbalDestinationParameter
-						state = Incomplete
-						values = 4062,0,0,0,0
-						targetBody = 1
-						targetType = Suborbit
-						kerbalName = Malinne Kerman
-					}
 				}
 			}
 			CONTRACT_FINISHED
@@ -953,7 +953,7 @@ GAME
 	{
 		name = ResearchAndDevelopment
 		scene = 7, 8, 5, 6
-		sci = 95.11602
+		sci = 32.11602
 		Tech
 		{
 			id = start
@@ -1004,6 +1004,27 @@ GAME
 			part = liquidEngine
 			part = solidBooster1-1
 			part = fuelTankSmall
+		}
+		Tech
+		{
+			id = basicScience
+			state = Available
+			cost = 45
+			part = probeCoreSphere
+			part = batteryPack
+			part = sensorThermometer
+			part = radPanelEdge
+			part = radPanelLg
+			part = mediumDishAntenna
+		}
+		Tech
+		{
+			id = stability
+			state = Available
+			cost = 18
+			part = noseCone
+			part = winglet
+			part = radialDecoupler
 		}
 		Science
 		{
@@ -1464,7 +1485,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.1.0
-		UT = 3183.37321288814
+		UT = 3835.37321288756
 		activeVessel = 0
 		mapViewFiltering = -1026
 	}
@@ -1846,21 +1867,5 @@ GAME
 	MESSAGESYSTEM
 	{
 		flash = True
-		MESSAGE
-		{
-			title = Contract Complete
-			message = <b>Escape the atmosphere!</b>~n~nWhat is it like up there? We hope it's fun because you're coming back very soon!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455>£  35,254   </color>~n<color=#6DCFF6>© 6   </color>~n<color=#E0D503>¡ 15   </color>~n~n
-			color = 2
-			icon = 3
-			read = True
-		}
-		MESSAGE
-		{
-			title = World First Milestones
-			message = The recent accomplishments of our space program have attracted contributions from numerous organizations!~n~nWe have broken an altitude record of 22km.~n<color=#b4d455>£  9,600 </color><color=#6dcff6>© 1 </color><color=#e0d503>¡ 2 </color>~n~nWe have broken a speed record of 790m/s.~n<color=#b4d455>£  9,600 </color><color=#6dcff6>© 1 </color><color=#e0d503>¡ 2 </color>~n~nWe have broken a land distance record of 10km.~n<color=#b4d455>£  9,600 </color><color=#6dcff6>© 1 </color><color=#e0d503>¡ 2 </color>~n~nWe have reached space.~n<color=#b4d455>£  16,000 </color><color=#6dcff6>© 2 </color><color=#e0d503>¡ 3 </color>~n~nWe have broken an altitude record of 70km.~n<color=#b4d455>£  9,600 </color><color=#6dcff6>© 1 </color><color=#e0d503>¡ 2 </color>~n~nWe have broken a land distance record of 32km.~n<color=#b4d455>£  9,600 </color><color=#6dcff6>© 1 </color><color=#e0d503>¡ 2 </color>~n~nWe have broken a land distance record of 100km.~n<color=#b4d455>£  9,600 </color><color=#6dcff6>© 1 </color><color=#e0d503>¡ 2 </color>~n
-			color = 3
-			icon = 6
-			read = False
-		}
 	}
 }

@@ -10,9 +10,9 @@ GAME
 	scene = 5
 	editor = None
 	flag = Squad/Flags/trees
-	launchID = 5
-	modded = False
-	loadedInfo =  - Environment Info - Win32NT 7FFFFFFFFFFFFFFF  Args: KSP_x64.exe  *** Mod DLLs found: - Stock assembly: Assembly-CSharp v0.0.0.0 - Stock assembly: KSPSteamCtrlr v0.0.1.33 - Stock assembly: SaveUpgradePipeline.Scripts v1.0.0.2 / v1.0.0.21 - Stock assembly: Steamworks.NET v8.0.0.0 / v8.0.0 *** Folders and files in GameData: - Stock folder: Squad *** 
+	launchID = 7
+	modded = True
+	loadedInfo =  - Environment Info - Win32NT 7FFFFFFFFFFFFFFF  Args: KSP_x64.exe  *** Mod DLLs found: - Stock assembly: Assembly-CSharp v0.0.0.0 - Stock assembly: KSPSteamCtrlr v0.0.1.33 - Stock assembly: SaveUpgradePipeline.Scripts v1.0.0.2 / v1.0.0.21 - Stock assembly: Steamworks.NET v8.0.0.0 / v8.0.0 *** Folders and files in GameData: - EforenStreaming - Stock folder: Squad *** 
 	PARAMETERS
 	{
 		preset = Normal
@@ -105,7 +105,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 1499.99999999893
+		update = 4474.34090331712
 		version = 1.1.0
 		WEIGHTS
 		{
@@ -128,18 +128,18 @@ GAME
 		{
 			CONTRACT
 			{
-				guid = cc5cff2e-bc83-4a9a-b31c-654f8c751ea6
+				guid = 7fcd0e39-47cb-4c24-8014-11abfe8b3967
 				type = SurveyContract
 				prestige = 0
-				seed = -1989489396
+				seed = -1989099352
 				state = Offered
-				agent = Kerbodyne
+				agent = STEADLER Engineering Corps
 				deadlineType = Floating
 				expiryType = Floating
-				values = 64800,46008000,7500,13250,7500,0,2,2,65144.9,0,0,0
+				values = 21600,46008000,7425.74259638786,13774.7518907458,7874.99964237213,0,2.116191,2.2,21944.94,0,0,0
 				targetBody = 1
-				centerLatitude = -2.39342823653116
-				centerLongitude = -79.3051090315028
+				centerLatitude = -1.00880107007476
+				centerLongitude = -71.6747357613733
 				randomTopic = Kerbin
 				dataName = observational
 				anomalyName = inconsistencies
@@ -156,16 +156,16 @@ GAME
 					targetBody = 1
 					actionDescription = Take a crew report
 					experiment = crewReport
-					flightThreshold = 17500
+					flightThreshold = 18400
 					band = 2
 					clusterState = MIXED
 					verified = True
 					contextual = False
-					wpSeed = 2035411869
+					wpSeed = -1764147830
 					wpIndex = 0
 					wpTexture = report
-					wpLatitude = -2.39342328240415
-					wpLongitude = -79.3051383901695
+					wpLatitude = -1.00881904146766
+					wpLongitude = -71.6747224643831
 					wpLandlocked = False
 				}
 			}
@@ -214,18 +214,18 @@ GAME
 			}
 			CONTRACT
 			{
-				guid = 7fcd0e39-47cb-4c24-8014-11abfe8b3967
+				guid = cc5cff2e-bc83-4a9a-b31c-654f8c751ea6
 				type = SurveyContract
 				prestige = 0
-				seed = -1989099352
+				seed = -1989489396
 				state = Offered
-				agent = STEADLER Engineering Corps
+				agent = Kerbodyne
 				deadlineType = Floating
 				expiryType = Floating
-				values = 21600,46008000,7425.74259638786,13774.7518907458,7874.99964237213,0,2.116191,2.2,21944.94,0,0,0
+				values = 64800,46008000,7500,13250,7500,0,2,2,65144.9,0,0,0
 				targetBody = 1
-				centerLatitude = -1.00880107007476
-				centerLongitude = -71.6747357613733
+				centerLatitude = -2.39342823653116
+				centerLongitude = -79.3051090315028
 				randomTopic = Kerbin
 				dataName = observational
 				anomalyName = inconsistencies
@@ -242,16 +242,16 @@ GAME
 					targetBody = 1
 					actionDescription = Take a crew report
 					experiment = crewReport
-					flightThreshold = 18400
+					flightThreshold = 17500
 					band = 2
 					clusterState = MIXED
 					verified = True
 					contextual = False
-					wpSeed = -1764147830
+					wpSeed = 2035411869
 					wpIndex = 0
 					wpTexture = report
-					wpLatitude = -1.00881904146766
-					wpLongitude = -71.6747224643831
+					wpLatitude = -2.39342328240415
+					wpLongitude = -79.3051383901695
 					wpLandlocked = False
 				}
 			}
@@ -502,25 +502,50 @@ GAME
 			}
 			CONTRACT
 			{
-				guid = 189e2da2-cb6f-42f9-a9be-446fe484df55
-				type = WorldFirstContract
+				guid = cfb95a36-1d90-4775-9645-efb6ced7f293
+				type = TourismContract
 				prestige = 1
-				seed = -1133745490
-				state = Active
-				agent = Kerbin World-Firsts Record-Keeping Society
-				deadlineType = None
+				seed = 939780144
+				state = Offered
+				agent = Rokea Inc
+				deadlineType = Floating
 				expiryType = Floating
-				ignoresWeight = True
-				values = 108000,0,18983.0499649048,35254.2356491089,22400,6,15.34,0,108000.1,746.839999999611,0,0
-				targetBody = 1
-				targetType = REACHSPACE
+				values = 17857.1423888207,38035713.288188,0,0,0,0,24.01372,12,19508.6623888194,0,0,0
+				gender = 0
+				preposition = right here on Kerbin
+				homeDestinations = True
+				tourists = Ferry Kerman|Malinne Kerman
 				PARAM
 				{
-					name = ProgressTrackingParameter
+					name = KerbalTourParameter
 					state = Incomplete
-					values = 0,0,0,0,0
-					targetBody = 1
-					targetType = REACHSPACE
+					values = 12188,0,0,0,0
+					kerbalName = Ferry Kerman
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 4062,0,0,0,0
+						targetBody = 1
+						targetType = Suborbit
+						kerbalName = Ferry Kerman
+					}
+				}
+				PARAM
+				{
+					name = KerbalTourParameter
+					state = Incomplete
+					values = 12188,0,0,0,0
+					kerbalName = Malinne Kerman
+					PARAM
+					{
+						name = KerbalDestinationParameter
+						state = Incomplete
+						values = 4062,0,0,0,0
+						targetBody = 1
+						targetType = Suborbit
+						kerbalName = Malinne Kerman
+					}
 				}
 			}
 			CONTRACT
@@ -586,6 +611,63 @@ GAME
 						values = 0,0,0,0,0
 						minSpd = 1710
 						maxSpd = 2090
+					}
+				}
+			}
+			CONTRACT
+			{
+				guid = 411c2ffb-d574-46c3-9cf9-dd3f0d5e9536
+				type = PartTest
+				prestige = 1
+				seed = 939490133
+				state = Offered
+				agent = Rockomax Conglomerate
+				deadlineType = Floating
+				expiryType = Floating
+				values = 34754.6251178843,7402735.15010935,19433.3345666726,53441.6712166668,20988.0016822815,6,12.55986,9,36406.1251178831,0,0,0
+				part = decoupler1-2
+				haul = False
+				dest = 1
+				sit = SUB_ORBITAL
+				exp = True
+				PARAM
+				{
+					name = PartTest
+					state = Incomplete
+					values = 0,0,0,0,0
+					part = decoupler1-2
+					body = Kerbin
+					situation = SUB_ORBITAL
+					uniqueID = 0.9994820654389831
+					haul = False
+					repeatability = ONCEPERPART
+					notes = To perform the test, activate the part through the staging sequence when all test conditions are met.
+					PARAM
+					{
+						name = ReachDestination
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						dest = 1
+						title = 
+					}
+					PARAM
+					{
+						name = ReachSituation
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						sit = SUB_ORBITAL
+						title = 
+					}
+					PARAM
+					{
+						name = ReachAltitudeEnvelope
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						minAlt = 210000
+						maxAlt = 220000
 					}
 				}
 			}
@@ -726,6 +808,30 @@ GAME
 					targetType = FIRSTLAUNCH
 				}
 			}
+			CONTRACT_FINISHED
+			{
+				guid = 189e2da2-cb6f-42f9-a9be-446fe484df55
+				type = WorldFirstContract
+				prestige = 1
+				seed = -1133745490
+				state = Completed
+				agent = Kerbin World-Firsts Record-Keeping Society
+				deadlineType = None
+				expiryType = Floating
+				ignoresWeight = True
+				values = 108000,0,18983.0499649048,35254.2356491089,22400,6,15.34,0,108000.1,746.839999999611,0,0
+				targetBody = 1
+				targetType = REACHSPACE
+				PARAM
+				{
+					name = ProgressTrackingParameter
+					enabled = False
+					state = Complete
+					values = 0,0,0,0,0
+					targetBody = 1
+					targetType = REACHSPACE
+				}
+			}
 		}
 	}
 	SCENARIO
@@ -738,7 +844,7 @@ GAME
 	{
 		name = Funding
 		scene = 7, 8, 5, 6
-		funds = 166135.577916145
+		funds = 56646.4979257587
 	}
 	SCENARIO
 	{
@@ -768,8 +874,8 @@ GAME
 			}
 			RecordsAltitude
 			{
-				reached = 864.219999999504
-				record = 7550.633544854
+				completed = 1651.51999999879
+				record = 70000
 			}
 			RecordsDepth
 			{
@@ -778,13 +884,26 @@ GAME
 			}
 			RecordsSpeed
 			{
-				reached = 352.73999999997
-				record = 507.274055379054
+				reached = 3984.43321288742
+				record = 2288.69551925723
 			}
 			RecordsDistance
 			{
-				reached = 477.599999999856
-				record = 8044.72588522975
+				completed = 1910.11693359238
+				record = 100000
+			}
+			ReachedSpace
+			{
+				completed = 1651.49999999879
+				vessel
+				{
+					name = KSS HolyKnight
+					flag = Squad/Flags/trees
+				}
+				crew
+				{
+					crews = Jebediah Kerman
+				}
 			}
 			Kerbin
 			{
@@ -834,7 +953,7 @@ GAME
 	{
 		name = ResearchAndDevelopment
 		scene = 7, 8, 5, 6
-		sci = 23.903
+		sci = 32.11602
 		Tech
 		{
 			id = start
@@ -886,6 +1005,27 @@ GAME
 			part = solidBooster1-1
 			part = fuelTankSmall
 		}
+		Tech
+		{
+			id = basicScience
+			state = Available
+			cost = 45
+			part = probeCoreSphere
+			part = batteryPack
+			part = sensorThermometer
+			part = radPanelEdge
+			part = radPanelLg
+			part = mediumDishAntenna
+		}
+		Tech
+		{
+			id = stability
+			state = Available
+			cost = 18
+			part = noseCone
+			part = winglet
+			part = radialDecoupler
+		}
 		Science
 		{
 			id = mysteryGoo@KerbinSrfLandedLaunchPad
@@ -921,9 +1061,9 @@ GAME
 			id = mysteryGoo@KerbinSrfSplashedWater
 			title = Mystery Goo™ Observation from Kerbin's Water
 			dsc = 1
-			scv = 0.05325446
+			scv = 0.01228938
 			sbv = 0.4
-			sci = 4.923077
+			sci = 5.136095
 			cap = 5.2
 		}
 		Science
@@ -996,6 +1136,56 @@ GAME
 			sci = 2.4
 			cap = 2.4
 		}
+		Science
+		{
+			id = mysteryGoo@KerbinInSpaceLow
+			title = Mystery Goo™ Observation while in space near Kerbin
+			dsc = 1
+			scv = 0.2307692
+			sbv = 1
+			sci = 10
+			cap = 13
+		}
+		Science
+		{
+			id = mobileMaterialsLab@KerbinInSpaceLow
+			title = Materials Study while in space near Kerbin
+			dsc = 1
+			scv = 0.21875
+			sbv = 1
+			sci = 25
+			cap = 32
+		}
+		Science
+		{
+			id = crewReport@KerbinInSpaceLow
+			title = Crew Report while in space near Kerbin
+			dsc = 1
+			scv = 0
+			sbv = 1
+			sci = 5
+			cap = 5
+		}
+		Science
+		{
+			id = mysteryGoo@KerbinFlyingHigh
+			title = Mystery Goo™ Observation from Kerbin's upper atmosphere
+			dsc = 1
+			scv = 0.2307692
+			sbv = 0.9
+			sci = 9
+			cap = 11.7
+		}
+		Science
+		{
+			id = recovery@KerbinSubOrbited
+			title = Recovery of a vessel after a sub-orbital flight.
+			dsc = 1
+			scv = 0.1666667
+			sbv = 8
+			sci = 8
+			cap = 9.6
+		}
 	}
 	SCENARIO
 	{
@@ -1006,7 +1196,7 @@ GAME
 	{
 		name = Reputation
 		scene = 7, 8, 5, 6
-		rep = 23.35973
+		rep = 43.69797
 	}
 	SCENARIO
 	{
@@ -1221,6 +1411,18 @@ GAME
 		{
 			intact = True
 		}
+		SpaceCenter/LaunchPad/Facility/building
+		{
+			intact = True
+		}
+		SpaceCenter/LaunchPad/Facility/SmallTanks
+		{
+			intact = True
+		}
+		SpaceCenter/LaunchPad/Facility/BigTanks
+		{
+			intact = True
+		}
 	}
 	SCENARIO
 	{
@@ -1241,7 +1443,7 @@ GAME
 		scene = 5, 6, 7, 8
 		SpaceCenter/LaunchPad
 		{
-			lvl = 0
+			lvl = 0.5
 		}
 		SpaceCenter/Runway
 		{
@@ -1283,54 +1485,54 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.1.0
-		UT = 1500.19999999893
+		UT = 4479.67487304379
 		activeVessel = 0
 		mapViewFiltering = -1026
 		VESSEL
 		{
-			pid = 2c694a936c304307b930da2c392269f7
-			name = KSS HolyKnight
+			pid = af590153d0fe4d80ac38484aad9b70b0
+			name = KSS HolyKnight Mk3
 			type = Ship
-			sit = PRELAUNCH
-			landed = True
-			landedAt = LaunchPad
+			sit = SUB_ORBITAL
+			landed = False
+			landedAt = 
 			splashed = False
-			met = 0
-			lct = 1500.19999999893
-			lastUT = 1500.19999999893
+			met = 760.941660156127
+			lct = 3718.73321288766
+			lastUT = 4479.67487304379
 			root = 0
-			lat = -0.0972067129333119
-			lon = 285.442319099987
-			alt = 82.1203950169729
-			hgt = 14.34222
-			nrm = 0.0007452667,0.9999998,4.493631E-08
-			rot = -0.7009887,-0.09221786,-0.09726542,0.7004642
-			CoM = -2.384186E-07,-2.219633,1.536682E-08
-			stg = 6
+			lat = -14.5057038559363
+			lon = 10.3235446784543
+			alt = 250090.860125871
+			hgt = -1
+			nrm = -0.7508094,0.6600461,-0.02499168
+			rot = -0.2707361,-0.6577927,-0.6942624,0.1095929
+			CoM = -0.00201422,-3.832577,0.0006815791
+			stg = 2
 			prst = False
-			ref = 3343113908
+			ref = 3552235745
 			ctrl = True
-			cPch = 0.2
-			cHdg = 0.3
+			cPch = 0.05799994
+			cHdg = 1.145999
 			cMod = 0
 			ORBIT
 			{
-				SMA = 300822.339724633
-				ECC = 0.994798329478477
-				INC = 0.0972067140098027
-				LPE = 89.9999999999998
-				LAN = 130.504667576296
-				MNA = 3.14159347788406
-				EPH = 1500.19999999893
+				SMA = 725997.582715706
+				ECC = 0.184083998086136
+				INC = 15.4291720309996
+				LPE = 127.859687825165
+				LAN = 244.783712664128
+				MNA = 2.69289581324857
+				EPH = 4479.67487304379
 				REF = 1
 			}
 			PART
 			{
 				name = mk1pod
 				cid = 4294699670
-				uid = 3343113908
-				mid = 953511268
-				launchID = 4
+				uid = 3552235745
+				mid = 2573191481
+				launchID = 6
 				parent = 0
 				position = 0,0,0
 				rotation = 0,0,0,1
@@ -1344,11 +1546,11 @@ GAME
 				attm = 0
 				srfN = , -1
 				attN = bottom, 1
-				attN = top, 18
+				attN = top, 13
 				mass = 0.8
-				temp = 310.857662323039
-				tempExt = 310.935618686274
-				tempExtUnexp = 310.929537113081
+				temp = 306.796641977698
+				tempExt = 304.971434345079
+				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
 				connected = True
@@ -1356,7 +1558,7 @@ GAME
 				flag = Squad/Flags/trees
 				rTrf = mk1pod
 				modCost = 0
-				crew = Jebediah Kerman
+				crew = Valentina Kerman
 				EVENTS
 				{
 				}
@@ -1420,7 +1622,7 @@ GAME
 					name = ModuleReactionWheel
 					isEnabled = True
 					actuatorModeCycle = 0
-					stateString = Idle
+					stateString = Running
 					stagingEnabled = True
 					WheelState = Active
 					actuatorModeCycle_UIFlight
@@ -1739,6 +1941,8 @@ GAME
 					Log
 					{
 						flight = 0
+						0 = Flight,Kerbin
+						0 = Suborbit,Kerbin
 					}
 				}
 				MODULE
@@ -1780,7 +1984,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 50
+					amount = 42.555578828987
 					maxAmount = 50
 					flowState = True
 					isTweakable = True
@@ -1804,9 +2008,9 @@ GAME
 			{
 				name = ServiceBay.125
 				cid = 4294671370
-				uid = 354731850
-				mid = 953511268
-				launchID = 4
+				uid = 3735604038
+				mid = 2573191481
+				launchID = 6
 				parent = 0
 				position = 0,-0.705039978027344,0
 				rotation = 0,0,0,1
@@ -1822,11 +2026,11 @@ GAME
 				attN = top2, -1
 				attN = bottom2, -1
 				attN = top, 0
-				attN = bottom, 2
+				attN = bottom, 4
 				mass = 0.1
-				temp = 310.857647563901
-				tempExt = 310.876948733425
-				tempExtUnexp = 310.876752739847
+				temp = 307.121797964685
+				tempExt = 303.834882357347
+				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
 				connected = True
@@ -1972,11 +2176,439 @@ GAME
 			}
 			PART
 			{
+				name = GooExperiment
+				cid = 4294645784
+				uid = 666444640
+				mid = 2573191481
+				launchID = 6
+				parent = 1
+				position = 0,-1.0450382232666,0.38004869222641
+				rotation = 0.4999999,0.4999999,-0.5000001,0.5000001
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 0
+				sidx = -1
+				attm = 1
+				sym = 3
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = 305.479704876039
+				tempExt = 305.458988794183
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				flag = Squad/Flags/trees
+				rTrf = GooExperiment
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleAnimateGeneric
+					isEnabled = True
+					aniState = LOCKED
+					animSwitch = True
+					animTime = 0
+					animSpeed = 1
+					deployPercent = 100
+					animationIsDisabled = False
+					stagingEnabled = True
+					deployPercent_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 100
+						stepIncrement = 1
+					}
+					EVENTS
+					{
+						Toggle
+						{
+							active = True
+							guiActive = False
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Toggle
+							guiName = Deploy
+							category = Toggle
+							guiActiveUnfocused = True
+							unfocusedRange = 5
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleScienceExperiment
+					isEnabled = True
+					Deployed = False
+					Inoperable = False
+					cooldownToGo = 0
+					stagingEnabled = True
+					EVENTS
+					{
+						DeployExperiment
+						{
+							active = True
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Deploy
+							guiName = Observe Mystery Goo
+							category = Deploy
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						CollectDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = 
+							guiName = Collect Data
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1.2
+							externalToEVAOnly = True
+						}
+						ReviewDataEvent
+						{
+							active = False
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Review Data
+							guiName = Review Data
+							category = Review Data
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperiment
+						{
+							active = False
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Reset
+							guiName = Reset Goo Canister
+							category = Reset
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						DeployExperimentExternal
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Deploy
+							guiName = Observe Mystery Goo
+							category = Deploy
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperimentExternal
+						{
+							active = False
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Reset
+							guiName = Reset Goo Canister
+							category = Reset
+							guiActiveUnfocused = True
+							unfocusedRange = 1.2
+							externalToEVAOnly = True
+						}
+						CleanUpExperimentExternal
+						{
+							active = False
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Restore
+							guiName = Restore
+							category = Restore
+							guiActiveUnfocused = True
+							unfocusedRange = 1.2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Experiment: Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						DeployAction
+						{
+							actionGroup = None
+						}
+						ResetAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = GooExperiment
+				cid = 4294455636
+				uid = 2592826955
+				mid = 2573191481
+				launchID = 6
+				parent = 1
+				position = -3.30619513988495E-08,-1.0450382232666,-0.38004869222641
+				rotation = -0.5000001,0.5000001,-0.4999999,-0.5
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 0
+				sidx = -1
+				attm = 1
+				sym = 2
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = 305.479704876039
+				tempExt = 305.458988794183
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				flag = Squad/Flags/trees
+				rTrf = GooExperiment
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleAnimateGeneric
+					isEnabled = True
+					aniState = LOCKED
+					animSwitch = True
+					animTime = 0
+					animSpeed = 1
+					deployPercent = 100
+					animationIsDisabled = False
+					stagingEnabled = True
+					deployPercent_UIFlight
+					{
+						controlEnabled = True
+						minValue = 0
+						maxValue = 100
+						stepIncrement = 1
+					}
+					EVENTS
+					{
+						Toggle
+						{
+							active = True
+							guiActive = False
+							guiActiveEditor = True
+							guiActiveUncommand = False
+							guiIcon = Toggle
+							guiName = Deploy
+							category = Toggle
+							guiActiveUnfocused = True
+							unfocusedRange = 5
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleScienceExperiment
+					isEnabled = True
+					Deployed = False
+					Inoperable = False
+					cooldownToGo = 0
+					stagingEnabled = True
+					EVENTS
+					{
+						DeployExperiment
+						{
+							active = True
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Deploy
+							guiName = Observe Mystery Goo
+							category = Deploy
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						CollectDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = 
+							guiName = Collect Data
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1.2
+							externalToEVAOnly = True
+						}
+						ReviewDataEvent
+						{
+							active = False
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Review Data
+							guiName = Review Data
+							category = Review Data
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperiment
+						{
+							active = False
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Reset
+							guiName = Reset Goo Canister
+							category = Reset
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						DeployExperimentExternal
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Deploy
+							guiName = Observe Mystery Goo
+							category = Deploy
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperimentExternal
+						{
+							active = False
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Reset
+							guiName = Reset Goo Canister
+							category = Reset
+							guiActiveUnfocused = True
+							unfocusedRange = 1.2
+							externalToEVAOnly = True
+						}
+						CleanUpExperimentExternal
+						{
+							active = False
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Restore
+							guiName = Restore
+							category = Restore
+							guiActiveUnfocused = True
+							unfocusedRange = 1.2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Experiment: Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						DeployAction
+						{
+							actionGroup = None
+						}
+						ResetAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
 				name = science.module
 				cid = 4294672800
-				uid = 4113954358
-				mid = 953511268
-				launchID = 4
+				uid = 741870131
+				mid = 2573191481
+				launchID = 6
 				parent = 1
 				position = 0,-1.61753845214844,0
 				rotation = 0,0.7071068,0,0.7071068
@@ -1990,11 +2622,11 @@ GAME
 				attm = 0
 				srfN = srfAttach, -1
 				attN = top, 1
-				attN = bottom, 3
+				attN = bottom, 5
 				mass = 0.2
-				temp = 310.857680514261
-				tempExt = 310.870501149081
-				tempExtUnexp = 310.869501257779
+				temp = 305.554495000626
+				tempExt = 304.933280026663
+				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
 				connected = True
@@ -2189,10 +2821,10 @@ GAME
 			{
 				name = HeatShield1
 				cid = 4294674260
-				uid = 3274992981
-				mid = 953511268
-				launchID = 4
-				parent = 2
+				uid = 3994399105
+				mid = 2573191481
+				launchID = 6
+				parent = 4
 				position = 0,-2.15203857421875,0
 				rotation = 0,0,0,1
 				mirror = 1,1,1
@@ -2205,14 +2837,14 @@ GAME
 				attm = 0
 				srfN = , -1
 				attN = direct, -1
-				attN = bottom, 4
-				attN = top, 2
+				attN = bottom, 6
+				attN = top, 4
 				mass = 0.1
-				temp = 310.857639306968
-				tempExt = 310.872078075462
-				tempExtUnexp = 310.870892075578
+				temp = 312.330584104904
+				tempExt = 309.859648463457
+				tempExtUnexp = 4
 				expt = 0.5
-				state = 0
+				state = 1
 				connected = True
 				attached = True
 				flag = Squad/Flags/trees
@@ -2386,7 +3018,7 @@ GAME
 				RESOURCE
 				{
 					name = Ablator
-					amount = 200
+					amount = 199.990002629723
 					maxAmount = 200
 					flowState = True
 					isTweakable = True
@@ -2398,11 +3030,11 @@ GAME
 			PART
 			{
 				name = stackDecoupler
-				cid = 4294694292
-				uid = 3597316457
-				mid = 953511268
-				launchID = 4
-				parent = 3
+				cid = 4294142712
+				uid = 55424002
+				mid = 2573191481
+				launchID = 6
+				parent = 5
 				position = 0,-2.38708877563477,0
 				rotation = 0,0,0,1
 				mirror = 1,1,1
@@ -2414,12 +3046,12 @@ GAME
 				sidx = 0
 				attm = 0
 				srfN = , -1
-				attN = bottom, 5
-				attN = top, 3
+				attN = bottom, 7
+				attN = top, 5
 				mass = 0.05
-				temp = 310.857680827821
-				tempExt = 310.869180448239
-				tempExtUnexp = 310.86832672587
+				temp = 317.409443474349
+				tempExt = 315.654804197066
+				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
 				connected = True
@@ -2577,10 +3209,10 @@ GAME
 			{
 				name = fuelTankSmall
 				cid = 4294692652
-				uid = 409837901
-				mid = 953511268
-				launchID = 4
-				parent = 4
+				uid = 1627973958
+				mid = 2573191481
+				launchID = 6
+				parent = 6
 				position = 0,-3.07533836364746,0
 				rotation = 0,0,0,1
 				mirror = 1,1,1
@@ -2592,14 +3224,14 @@ GAME
 				sidx = -1
 				attm = 0
 				srfN = srfAttach, -1
-				attN = top, 4
-				attN = bottom, 6
+				attN = top, 6
+				attN = bottom, 8
 				mass = 0.125
-				temp = 310.857641280333
-				tempExt = 310.870089470907
-				tempExtUnexp = 310.86914467639
+				temp = 318.091014643014
+				tempExt = 317.543521872444
+				tempExtUnexp = 4
 				expt = 0.5
-				state = 0
+				state = 1
 				connected = True
 				attached = True
 				flag = Squad/Flags/trees
@@ -2617,7 +3249,7 @@ GAME
 				RESOURCE
 				{
 					name = LiquidFuel
-					amount = 90
+					amount = 0
 					maxAmount = 90
 					flowState = True
 					isTweakable = True
@@ -2628,7 +3260,71 @@ GAME
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 110
+					amount = 0
+					maxAmount = 110
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = fuelTankSmall
+				cid = 4294398560
+				uid = 731935796
+				mid = 2573191481
+				launchID = 6
+				parent = 7
+				position = 0,-4.18583869934082,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 5
+				dstg = 5
+				sqor = -1
+				sepI = 1
+				sidx = -1
+				attm = 0
+				srfN = srfAttach, -1
+				attN = top, 7
+				attN = bottom, 9
+				mass = 0.125
+				temp = 319.187149594059
+				tempExt = 318.571081701833
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				flag = Squad/Flags/trees
+				rTrf = fuelTankSmall
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				RESOURCE
+				{
+					name = LiquidFuel
+					amount = 0
+					maxAmount = 90
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
+					flowMode = Both
+				}
+				RESOURCE
+				{
+					name = Oxidizer
+					amount = 0
 					maxAmount = 110
 					flowState = True
 					isTweakable = True
@@ -2641,11 +3337,11 @@ GAME
 			{
 				name = fuelTankSmall
 				cid = 4294692036
-				uid = 2900329519
-				mid = 953511268
-				launchID = 4
-				parent = 5
-				position = 0,-4.18583869934082,0
+				uid = 1546891382
+				mid = 2573191481
+				launchID = 6
+				parent = 8
+				position = 0,-5.29633903503418,0
 				rotation = 0,0,0,1
 				mirror = 1,1,1
 				symMethod = Radial
@@ -2656,14 +3352,14 @@ GAME
 				sidx = -1
 				attm = 0
 				srfN = srfAttach, -1
-				attN = top, 5
-				attN = bottom, 7
+				attN = top, 8
+				attN = bottom, 10
 				mass = 0.125
-				temp = 310.857642526746
-				tempExt = 310.874782857996
-				tempExtUnexp = 310.873502790309
+				temp = 320.541271076798
+				tempExt = 319.603019784702
+				tempExtUnexp = 4
 				expt = 0.5
-				state = 0
+				state = 1
 				connected = True
 				attached = True
 				flag = Squad/Flags/trees
@@ -2681,7 +3377,7 @@ GAME
 				RESOURCE
 				{
 					name = LiquidFuel
-					amount = 90
+					amount = 88.3342952990721
 					maxAmount = 90
 					flowState = True
 					isTweakable = True
@@ -2692,7 +3388,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxidizer
-					amount = 110
+					amount = 107.964138600807
 					maxAmount = 110
 					flowState = True
 					isTweakable = True
@@ -2705,11 +3401,11 @@ GAME
 			{
 				name = liquidEngine2
 				cid = 4294675724
-				uid = 278450260
-				mid = 953511268
-				launchID = 4
-				parent = 6
-				position = 0,-5.64290809631348,0
+				uid = 2711656753
+				mid = 2573191481
+				launchID = 6
+				parent = 9
+				position = 0,-6.75340843200684,0
 				rotation = 0,0,0,1
 				mirror = 1,1,1
 				symMethod = Radial
@@ -2720,14 +3416,14 @@ GAME
 				sidx = 0
 				attm = 0
 				srfN = , -1
-				attN = top, 6
-				attN = bottom, 8
+				attN = top, 9
+				attN = bottom, -1
 				mass = 1.5
-				temp = 310.857654989196
-				tempExt = 310.878675410591
-				tempExtUnexp = 310.877107210989
+				temp = 321.15679009464
+				tempExt = 320.053200252435
+				tempExtUnexp = 4
 				expt = 0.5
-				state = 0
+				state = 1
 				connected = True
 				attached = True
 				flag = Squad/Flags/trees
@@ -2746,9 +3442,9 @@ GAME
 				{
 					name = ModuleEngines
 					isEnabled = True
-					staged = False
+					staged = True
 					flameout = False
-					EngineIgnited = False
+					EngineIgnited = True
 					engineShutdown = False
 					currentThrottle = 0
 					thrustPercentage = 100
@@ -2765,7 +3461,7 @@ GAME
 					{
 						Activate
 						{
-							active = True
+							active = False
 							guiActive = True
 							guiActiveUncommand = False
 							guiIcon = Activate Engine
@@ -2777,7 +3473,7 @@ GAME
 						}
 						Shutdown
 						{
-							active = False
+							active = True
 							guiActive = True
 							guiActiveUncommand = False
 							guiIcon = Shutdown Engine
@@ -2820,7 +3516,7 @@ GAME
 				{
 					name = ModuleJettison
 					isEnabled = True
-					isJettisoned = False
+					isJettisoned = True
 					shroudHideOverride = False
 					stagingEnabled = True
 					shroudHideOverride_UIFlight
@@ -2831,7 +3527,7 @@ GAME
 					{
 						Jettison
 						{
-							active = True
+							active = False
 							guiActive = True
 							guiActiveUncommand = False
 							guiIcon = Jettison Shroud
@@ -2872,7 +3568,7 @@ GAME
 					enableYaw = True
 					enablePitch = True
 					enableRoll = True
-					gimbalActive = False
+					gimbalActive = True
 					stagingEnabled = True
 					gimbalLock_UIFlight
 					{
@@ -3075,2227 +3771,11 @@ GAME
 			}
 			PART
 			{
-				name = stackDecoupler
-				cid = 4294641374
-				uid = 1580949893
-				mid = 953511268
-				launchID = 4
-				parent = 7
-				position = 0,-6.42588996887207,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 3
-				dstg = 6
-				sqor = -1
-				sepI = 3
-				sidx = 0
-				attm = 0
-				srfN = , -1
-				attN = bottom, 9
-				attN = top, 7
-				mass = 0.05
-				temp = 310.857687853027
-				tempExt = 310.872420581215
-				tempExtUnexp = 310.871071348143
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				flag = Squad/Flags/trees
-				rTrf = stackDecoupler
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleDecouple
-					isEnabled = True
-					ejectionForcePercent = 100
-					isDecoupled = False
-					stagingEnabled = True
-					ejectionForcePercent_UIFlight
-					{
-						controlEnabled = True
-						minValue = 0
-						maxValue = 100
-						stepIncrement = 1
-					}
-					EVENTS
-					{
-						Decouple
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Decouple
-							guiName = Decouple
-							category = Decouple
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Decoupler: Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						DecoupleAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-				MODULE
-				{
-					name = ModuleToggleCrossfeed
-					isEnabled = True
-					crossfeedStatus = False
-					stagingEnabled = True
-					EVENTS
-					{
-						ToggleEvent
-						{
-							active = True
-							guiActive = True
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Disable Crossfeed
-							guiName = Enable Crossfeed
-							category = Disable Crossfeed
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-						EnableAction
-						{
-							actionGroup = None
-						}
-						DisableAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-				MODULE
-				{
-					name = ModuleTestSubject
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-					}
-				}
-			}
-			PART
-			{
-				name = solidBooster1-1
-				cid = 4294697866
-				uid = 1384913219
-				mid = 953511268
-				launchID = 4
-				parent = 8
-				position = 0,-10.4788799285889,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 4
-				dstg = 7
-				sqor = -1
-				sepI = 3
-				sidx = 0
-				attm = 0
-				srfN = srfAttach, -1
-				attN = bottom, -1
-				attN = top, 8
-				mass = 1.5
-				temp = 310.857671450455
-				tempExt = 310.906399902493
-				tempExtUnexp = 310.902804192512
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				flag = Squad/Flags/trees
-				rTrf = solidBooster1-1
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleEngines
-					isEnabled = True
-					staged = False
-					flameout = False
-					EngineIgnited = False
-					engineShutdown = False
-					currentThrottle = 0
-					thrustPercentage = 75
-					manuallyOverridden = False
-					stagingEnabled = True
-					thrustPercentage_UIFlight
-					{
-						controlEnabled = True
-						minValue = 0
-						maxValue = 100
-						stepIncrement = 0.5
-					}
-					EVENTS
-					{
-						Activate
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Activate Engine
-							guiName = Activate Engine
-							category = Activate Engine
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						Shutdown
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Shutdown Engine
-							guiName = Shutdown Engine
-							category = Shutdown Engine
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						OnAction
-						{
-							actionGroup = None
-						}
-						ShutdownAction
-						{
-							actionGroup = None
-						}
-						ActivateAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-				MODULE
-				{
-					name = FXModuleAnimateThrottle
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleTestSubject
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleSurfaceFX
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-					}
-				}
-				RESOURCE
-				{
-					name = SolidFuel
-					amount = 820
-					maxAmount = 820
-					flowState = True
-					isTweakable = True
-					hideFlow = False
-					isVisible = True
-					flowMode = Both
-				}
-			}
-			PART
-			{
-				name = miniLandingLeg
-				cid = 4294655752
-				uid = 2038731078
-				mid = 953511268
-				launchID = 4
-				parent = 2
-				position = -5.12227416038513E-08,-2.12855911254883,-0.644847691059113
-				rotation = -4.214683E-08,0.7071065,4.214685E-08,-0.7071072
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 1
-				dstg = 1
-				sqor = -1
-				sepI = 0
-				sidx = -1
-				attm = 1
-				sym = 11
-				sym = 12
-				sym = 13
-				srfN = srfAttach, 2
-				mass = 0.015
-				temp = 310.858014504612
-				tempExt = 310.935109009029
-				tempExtUnexp = 310.929402711231
-				expt = 0
-				state = 0
-				connected = True
-				attached = True
-				flag = Squad/Flags/trees
-				rTrf = miniLandingLeg
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleWheelBase
-					isEnabled = True
-					wheelType = LEG
-					isGrounded = False
-					autoFriction = False
-					frictionMultiplier = 1
-					stagingEnabled = True
-					frictionMultiplier_UIFlight
-					{
-						controlEnabled = True
-						minValue = 0.01
-						maxValue = 2
-						stepIncrement = 0.01
-					}
-					EVENTS
-					{
-						EvtAutoFrictionToggle
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = 
-							guiName = 
-							category = 
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ActAutoFrictionToggle
-						{
-							actionGroup = None
-						}
-					}
-				}
-				MODULE
-				{
-					name = ModuleWheelSuspension
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleWheelDeployment
-					isEnabled = True
-					stateString = Retracted
-					stagingEnabled = True
-					position = 0
-					EVENTS
-					{
-						EventToggle
-						{
-							active = True
-							guiActive = True
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Toggle
-							guiName = Extend
-							category = Toggle
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ActionToggle
-						{
-							actionGroup = Gear
-						}
-					}
-				}
-				MODULE
-				{
-					name = ModuleWheelLock
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-					}
-				}
-			}
-			PART
-			{
-				name = miniLandingLeg
-				cid = 4294653026
-				uid = 4207332731
-				mid = 953511268
-				launchID = 4
-				parent = 2
-				position = -0.644847631454468,-2.12855911254883,1.02445483207703E-08
-				rotation = 1.953993E-14,-3.278255E-07,5.960464E-08,-1
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 1
-				dstg = 1
-				sqor = -1
-				sepI = 0
-				sidx = -1
-				attm = 1
-				sym = 10
-				sym = 12
-				sym = 13
-				srfN = srfAttach, 2
-				mass = 0.015
-				temp = 310.858064292906
-				tempExt = 310.945353789856
-				tempExtUnexp = 310.938884808985
-				expt = 0
-				state = 0
-				connected = True
-				attached = True
-				flag = Squad/Flags/trees
-				rTrf = miniLandingLeg
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleWheelBase
-					isEnabled = True
-					wheelType = LEG
-					isGrounded = False
-					autoFriction = False
-					frictionMultiplier = 1
-					stagingEnabled = True
-					frictionMultiplier_UIFlight
-					{
-						controlEnabled = True
-						minValue = 0.01
-						maxValue = 2
-						stepIncrement = 0.01
-					}
-					EVENTS
-					{
-						EvtAutoFrictionToggle
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = 
-							guiName = 
-							category = 
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ActAutoFrictionToggle
-						{
-							actionGroup = None
-						}
-					}
-				}
-				MODULE
-				{
-					name = ModuleWheelSuspension
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleWheelDeployment
-					isEnabled = True
-					stateString = Retracted
-					stagingEnabled = True
-					position = 0
-					EVENTS
-					{
-						EventToggle
-						{
-							active = True
-							guiActive = True
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Toggle
-							guiName = Extend
-							category = Toggle
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ActionToggle
-						{
-							actionGroup = Gear
-						}
-					}
-				}
-				MODULE
-				{
-					name = ModuleWheelLock
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-					}
-				}
-			}
-			PART
-			{
-				name = miniLandingLeg
-				cid = 4294652864
-				uid = 1673895730
-				mid = 953511268
-				launchID = 4
-				parent = 2
-				position = 1.06636434793472E-07,-2.12855911254883,0.644847691059113
-				rotation = 4.214686E-08,-0.7071072,4.214683E-08,-0.7071065
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 1
-				dstg = 1
-				sqor = -1
-				sepI = 0
-				sidx = -1
-				attm = 1
-				sym = 10
-				sym = 11
-				sym = 13
-				srfN = srfAttach, 2
-				mass = 0.015
-				temp = 310.857946773318
-				tempExt = 310.921202904876
-				tempExtUnexp = 310.916534007366
-				expt = 0
-				state = 0
-				connected = True
-				attached = True
-				flag = Squad/Flags/trees
-				rTrf = miniLandingLeg
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleWheelBase
-					isEnabled = True
-					wheelType = LEG
-					isGrounded = False
-					autoFriction = False
-					frictionMultiplier = 1
-					stagingEnabled = True
-					frictionMultiplier_UIFlight
-					{
-						controlEnabled = True
-						minValue = 0.01
-						maxValue = 2
-						stepIncrement = 0.01
-					}
-					EVENTS
-					{
-						EvtAutoFrictionToggle
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = 
-							guiName = 
-							category = 
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ActAutoFrictionToggle
-						{
-							actionGroup = None
-						}
-					}
-				}
-				MODULE
-				{
-					name = ModuleWheelSuspension
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleWheelDeployment
-					isEnabled = True
-					stateString = Retracted
-					stagingEnabled = True
-					position = 0
-					EVENTS
-					{
-						EventToggle
-						{
-							active = True
-							guiActive = True
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Toggle
-							guiName = Extend
-							category = Toggle
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ActionToggle
-						{
-							actionGroup = Gear
-						}
-					}
-				}
-				MODULE
-				{
-					name = ModuleWheelLock
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-					}
-				}
-			}
-			PART
-			{
-				name = miniLandingLeg
-				cid = 4294652702
-				uid = 2620279025
-				mid = 953511268
-				launchID = 4
-				parent = 2
-				position = 0.644847691059113,-2.12855911254883,-8.94069671630859E-08
-				rotation = 5.960464E-08,-1,-1.953993E-14,3.278255E-07
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 1
-				dstg = 1
-				sqor = -1
-				sepI = 0
-				sidx = -1
-				attm = 1
-				sym = 10
-				sym = 11
-				sym = 12
-				srfN = srfAttach, 2
-				mass = 0.015
-				temp = 310.857604742477
-				tempExt = 310.851490904384
-				tempExtUnexp = 310.851756339423
-				expt = 0
-				state = 0
-				connected = True
-				attached = True
-				flag = Squad/Flags/trees
-				rTrf = miniLandingLeg
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleWheelBase
-					isEnabled = True
-					wheelType = LEG
-					isGrounded = False
-					autoFriction = False
-					frictionMultiplier = 1
-					stagingEnabled = True
-					frictionMultiplier_UIFlight
-					{
-						controlEnabled = True
-						minValue = 0.01
-						maxValue = 2
-						stepIncrement = 0.01
-					}
-					EVENTS
-					{
-						EvtAutoFrictionToggle
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = 
-							guiName = 
-							category = 
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ActAutoFrictionToggle
-						{
-							actionGroup = None
-						}
-					}
-				}
-				MODULE
-				{
-					name = ModuleWheelSuspension
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleWheelDeployment
-					isEnabled = True
-					stateString = Retracted
-					stagingEnabled = True
-					position = 0
-					EVENTS
-					{
-						EventToggle
-						{
-							active = True
-							guiActive = True
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Toggle
-							guiName = Extend
-							category = Toggle
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ActionToggle
-						{
-							actionGroup = Gear
-						}
-					}
-				}
-				MODULE
-				{
-					name = ModuleWheelLock
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-					}
-				}
-			}
-			PART
-			{
-				name = GooExperiment
-				cid = 4294648472
-				uid = 3766591441
-				mid = 953511268
-				launchID = 4
-				parent = 1
-				position = -0.193291246891022,-1.0450382232666,0.193291321396828
-				rotation = 0.4999999,0.4999999,-0.5000001,0.5000001
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sepI = 0
-				sidx = -1
-				attm = 1
-				sym = 15
-				sym = 16
-				sym = 17
-				srfN = srfAttach, 1
-				mass = 0.05
-				temp = 310.857665190478
-				tempExt = 310.871669145882
-				tempExtUnexp = 310.870728289958
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				flag = Squad/Flags/trees
-				rTrf = GooExperiment
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleAnimateGeneric
-					isEnabled = True
-					aniState = LOCKED
-					animSwitch = True
-					animTime = 0
-					animSpeed = 1
-					deployPercent = 100
-					animationIsDisabled = False
-					stagingEnabled = True
-					deployPercent_UIFlight
-					{
-						controlEnabled = True
-						minValue = 0
-						maxValue = 100
-						stepIncrement = 1
-					}
-					EVENTS
-					{
-						Toggle
-						{
-							active = True
-							guiActive = False
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Toggle
-							guiName = Deploy
-							category = Toggle
-							guiActiveUnfocused = True
-							unfocusedRange = 5
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-				MODULE
-				{
-					name = ModuleScienceExperiment
-					isEnabled = True
-					Deployed = False
-					Inoperable = False
-					cooldownToGo = 0
-					stagingEnabled = True
-					EVENTS
-					{
-						DeployExperiment
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Deploy
-							guiName = Observe Mystery Goo
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						CollectDataExternalEvent
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = 
-							guiName = Collect Data
-							category = 
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						ReviewDataEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Review Data
-							guiName = Review Data
-							category = Review Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperiment
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Reset
-							guiName = Reset Goo Canister
-							category = Reset
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DeployExperimentExternal
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Deploy
-							guiName = Observe Mystery Goo
-							category = Deploy
-							guiActiveUnfocused = True
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Reset
-							guiName = Reset Goo Canister
-							category = Reset
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						CleanUpExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Restore
-							guiName = Restore
-							category = Restore
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Experiment: Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						ResetAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			PART
-			{
-				name = GooExperiment
-				cid = 4294645892
-				uid = 2689077490
-				mid = 953511268
-				launchID = 4
-				parent = 1
-				position = 0.193291261792183,-1.0450382232666,0.193291321396828
-				rotation = -1.264405E-07,0.7071068,-0.7071068,1.264405E-07
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sepI = 0
-				sidx = -1
-				attm = 1
-				sym = 14
-				sym = 16
-				sym = 17
-				srfN = srfAttach, 1
-				mass = 0.05
-				temp = 310.857665190478
-				tempExt = 310.871669145882
-				tempExtUnexp = 310.870728289958
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				flag = Squad/Flags/trees
-				rTrf = GooExperiment
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleAnimateGeneric
-					isEnabled = True
-					aniState = LOCKED
-					animSwitch = True
-					animTime = 0
-					animSpeed = 1
-					deployPercent = 100
-					animationIsDisabled = False
-					stagingEnabled = True
-					deployPercent_UIFlight
-					{
-						controlEnabled = True
-						minValue = 0
-						maxValue = 100
-						stepIncrement = 1
-					}
-					EVENTS
-					{
-						Toggle
-						{
-							active = True
-							guiActive = False
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Toggle
-							guiName = Deploy
-							category = Toggle
-							guiActiveUnfocused = True
-							unfocusedRange = 5
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-				MODULE
-				{
-					name = ModuleScienceExperiment
-					isEnabled = True
-					Deployed = False
-					Inoperable = False
-					cooldownToGo = 0
-					stagingEnabled = True
-					EVENTS
-					{
-						DeployExperiment
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Deploy
-							guiName = Observe Mystery Goo
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						CollectDataExternalEvent
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = 
-							guiName = Collect Data
-							category = 
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						ReviewDataEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Review Data
-							guiName = Review Data
-							category = Review Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperiment
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Reset
-							guiName = Reset Goo Canister
-							category = Reset
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DeployExperimentExternal
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Deploy
-							guiName = Observe Mystery Goo
-							category = Deploy
-							guiActiveUnfocused = True
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Reset
-							guiName = Reset Goo Canister
-							category = Reset
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						CleanUpExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Restore
-							guiName = Restore
-							category = Restore
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Experiment: Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						ResetAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			PART
-			{
-				name = GooExperiment
-				cid = 4294645838
-				uid = 619449061
-				mid = 953511268
-				launchID = 4
-				parent = 1
-				position = 0.193291261792183,-1.0450382232666,-0.193291291594505
-				rotation = -0.5000001,0.5000001,-0.4999999,-0.5
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sepI = 0
-				sidx = -1
-				attm = 1
-				sym = 14
-				sym = 15
-				sym = 17
-				srfN = srfAttach, 1
-				mass = 0.05
-				temp = 310.857665190478
-				tempExt = 310.871669145882
-				tempExtUnexp = 310.870728289958
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				flag = Squad/Flags/trees
-				rTrf = GooExperiment
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleAnimateGeneric
-					isEnabled = True
-					aniState = LOCKED
-					animSwitch = True
-					animTime = 0
-					animSpeed = 1
-					deployPercent = 100
-					animationIsDisabled = False
-					stagingEnabled = True
-					deployPercent_UIFlight
-					{
-						controlEnabled = True
-						minValue = 0
-						maxValue = 100
-						stepIncrement = 1
-					}
-					EVENTS
-					{
-						Toggle
-						{
-							active = True
-							guiActive = False
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Toggle
-							guiName = Deploy
-							category = Toggle
-							guiActiveUnfocused = True
-							unfocusedRange = 5
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-				MODULE
-				{
-					name = ModuleScienceExperiment
-					isEnabled = True
-					Deployed = False
-					Inoperable = False
-					cooldownToGo = 0
-					stagingEnabled = True
-					EVENTS
-					{
-						DeployExperiment
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Deploy
-							guiName = Observe Mystery Goo
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						CollectDataExternalEvent
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = 
-							guiName = Collect Data
-							category = 
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						ReviewDataEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Review Data
-							guiName = Review Data
-							category = Review Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperiment
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Reset
-							guiName = Reset Goo Canister
-							category = Reset
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DeployExperimentExternal
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Deploy
-							guiName = Observe Mystery Goo
-							category = Deploy
-							guiActiveUnfocused = True
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Reset
-							guiName = Reset Goo Canister
-							category = Reset
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						CleanUpExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Restore
-							guiName = Restore
-							category = Restore
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Experiment: Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						ResetAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			PART
-			{
-				name = GooExperiment
-				cid = 4294645784
-				uid = 248578693
-				mid = 953511268
-				launchID = 4
-				parent = 1
-				position = -0.193291336297989,-1.0450382232666,-0.193291291594505
-				rotation = -0.7071068,1.264405E-07,1.264405E-07,-0.7071068
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sepI = 0
-				sidx = -1
-				attm = 1
-				sym = 14
-				sym = 15
-				sym = 16
-				srfN = srfAttach, 1
-				mass = 0.05
-				temp = 310.857665190478
-				tempExt = 310.871669145882
-				tempExtUnexp = 310.870728289958
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				flag = Squad/Flags/trees
-				rTrf = GooExperiment
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleAnimateGeneric
-					isEnabled = True
-					aniState = LOCKED
-					animSwitch = True
-					animTime = 0
-					animSpeed = 1
-					deployPercent = 100
-					animationIsDisabled = False
-					stagingEnabled = True
-					deployPercent_UIFlight
-					{
-						controlEnabled = True
-						minValue = 0
-						maxValue = 100
-						stepIncrement = 1
-					}
-					EVENTS
-					{
-						Toggle
-						{
-							active = True
-							guiActive = False
-							guiActiveEditor = True
-							guiActiveUncommand = False
-							guiIcon = Toggle
-							guiName = Deploy
-							category = Toggle
-							guiActiveUnfocused = True
-							unfocusedRange = 5
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						ToggleAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-				MODULE
-				{
-					name = ModuleScienceExperiment
-					isEnabled = True
-					Deployed = False
-					Inoperable = False
-					cooldownToGo = 0
-					stagingEnabled = True
-					EVENTS
-					{
-						DeployExperiment
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Deploy
-							guiName = Observe Mystery Goo
-							category = Deploy
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						CollectDataExternalEvent
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = 
-							guiName = Collect Data
-							category = 
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						ReviewDataEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Review Data
-							guiName = Review Data
-							category = Review Data
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperiment
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Reset
-							guiName = Reset Goo Canister
-							category = Reset
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						DeployExperimentExternal
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Deploy
-							guiName = Observe Mystery Goo
-							category = Deploy
-							guiActiveUnfocused = True
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ResetExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Reset
-							guiName = Reset Goo Canister
-							category = Reset
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						CleanUpExperimentExternal
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Restore
-							guiName = Restore
-							category = Restore
-							guiActiveUnfocused = True
-							unfocusedRange = 1.2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Experiment: Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						ResetAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-			}
-			PART
-			{
-				name = parachuteSingle
-				cid = 4294669000
-				uid = 2569790385
-				mid = 953511268
-				launchID = 4
-				parent = 0
-				position = 0,0.657451629638672,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				symMethod = Radial
-				istg = 0
-				dstg = 0
-				sqor = -1
-				sepI = 0
-				sidx = 1
-				attm = 0
-				srfN = srfAttach, -1
-				attN = bottom, 0
-				mass = 0.1
-				temp = 310.857634564475
-				tempExt = 310.858747779267
-				tempExtUnexp = 310.858008158846
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				flag = Squad/Flags/trees
-				rTrf = parachuteSingle
-				modCost = 0
-				EVENTS
-				{
-				}
-				ACTIONS
-				{
-				}
-				PARTDATA
-				{
-				}
-				MODULE
-				{
-					name = ModuleParachute
-					isEnabled = True
-					persistentState = STOWED
-					animTime = 0
-					minAirPressureToOpen = 0.04
-					deployAltitude = 1000
-					stagingEnabled = True
-					minAirPressureToOpen_UIFlight
-					{
-						controlEnabled = True
-						minValue = 0.01
-						maxValue = 0.75
-						stepIncrement = 0.01
-					}
-					deployAltitude_UIFlight
-					{
-						controlEnabled = True
-						minValue = 50
-						maxValue = 5000
-						stepIncrement = 50
-					}
-					EVENTS
-					{
-						Deploy
-						{
-							active = True
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Deploy Chute
-							guiName = Deploy Chute
-							category = Deploy Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						CutParachute
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Cut Parachute
-							guiName = Cut Parachute
-							category = Cut Parachute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Repack
-						{
-							active = False
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Repack Chute
-							guiName = Repack Chute
-							category = Repack Chute
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						Disarm
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Disarm
-							guiName = Disarm
-							category = Disarm
-							guiActiveUnfocused = True
-							unfocusedRange = 4
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-						DeployAction
-						{
-							actionGroup = None
-						}
-						CutAction
-						{
-							actionGroup = None
-						}
-					}
-				}
-				MODULE
-				{
-					name = ModuleTestSubject
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-						RunTestEvent
-						{
-							active = False
-							guiActive = True
-							guiActiveUncommand = False
-							guiIcon = Run Test
-							guiName = Run Test
-							category = Run Test
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleDragModifier
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-					}
-				}
-				MODULE
-				{
-					name = ModuleDragModifier
-					isEnabled = True
-					stagingEnabled = True
-					EVENTS
-					{
-						ToggleStaging
-						{
-							active = True
-							guiActive = False
-							guiActiveUncommand = False
-							guiIcon = Disable Staging
-							guiName = Disable Staging
-							category = Disable Staging
-							guiActiveUnfocused = False
-							unfocusedRange = 2
-							externalToEVAOnly = True
-						}
-					}
-					ACTIONS
-					{
-					}
-				}
-			}
-			PART
-			{
 				name = parachuteRadial
 				cid = 4294666080
-				uid = 3818421010
-				mid = 953511268
-				launchID = 4
+				uid = 263523421
+				mid = 2573191481
+				launchID = 6
 				parent = 0
 				position = -0.441562712192535,0.158681869506836,2.04890966415405E-08
 				rotation = 0.1287088,0.6952944,-0.1287089,0.695294
@@ -5307,12 +3787,12 @@ GAME
 				sepI = 0
 				sidx = 0
 				attm = 1
-				sym = 20
+				sym = 12
 				srfN = srfAttach, 0
 				mass = 0.1
-				temp = 310.857629066826
-				tempExt = 310.85638255084
-				tempExtUnexp = 310.855886086031
+				temp = 306.545190537519
+				tempExt = 305.44382056357
+				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
 				connected = True
@@ -5516,9 +3996,9 @@ GAME
 			{
 				name = parachuteRadial
 				cid = 4294664532
-				uid = 3197419677
-				mid = 953511268
-				launchID = 4
+				uid = 194946586
+				mid = 2573191481
+				launchID = 6
 				parent = 0
 				position = 0.44156277179718,0.158681869506836,-6.98491930961609E-08
 				rotation = -0.1287089,0.6952939,-0.1287088,-0.6952945
@@ -5530,12 +4010,12 @@ GAME
 				sepI = 0
 				sidx = 0
 				attm = 1
-				sym = 19
+				sym = 11
 				srfN = srfAttach, 0
 				mass = 0.1
-				temp = 310.857629066826
-				tempExt = 310.85638255084
-				tempExtUnexp = 310.855886086031
+				temp = 306.545190767489
+				tempExt = 305.4438231549
+				tempExtUnexp = 4
 				expt = 0.5
 				state = 0
 				connected = True
@@ -5735,13 +4215,546 @@ GAME
 					}
 				}
 			}
+			PART
+			{
+				name = probeCoreSphere
+				cid = 4294498436
+				uid = 4236110239
+				mid = 2573191481
+				launchID = 6
+				parent = 0
+				position = 0,0.980720520019531,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 0
+				sidx = -1
+				attm = 0
+				srfN = , -1
+				attN = bottom, 0
+				mass = 0.05
+				temp = 306.477756376155
+				tempExt = 305.63345666479
+				tempExtUnexp = 4
+				expt = 0
+				state = 0
+				connected = True
+				attached = True
+				flag = Squad/Flags/trees
+				rTrf = probeCoreSphere
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleCommand
+					isEnabled = True
+					controlSrcStatusText = Operational
+					stagingEnabled = True
+					EVENTS
+					{
+						MakeReference
+						{
+							active = True
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Control From Here
+							guiName = Control From Here
+							category = Control From Here
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						RenameVessel
+						{
+							active = True
+							guiActive = True
+							guiActiveUncommand = True
+							guiIcon = Rename Vessel
+							guiName = Rename Vessel
+							category = Rename Vessel
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+				}
+				MODULE
+				{
+					name = ModuleTripLogger
+					isEnabled = True
+					stagingEnabled = True
+					EVENTS
+					{
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+					}
+					Log
+					{
+						flight = 0
+						0 = Flight,Kerbin
+						0 = Suborbit,Kerbin
+					}
+				}
+				RESOURCE
+				{
+					name = ElectricCharge
+					amount = 2.55557882898588
+					maxAmount = 10
+					flowState = True
+					isTweakable = True
+					hideFlow = False
+					isVisible = True
+					flowMode = Both
+				}
+			}
+			PART
+			{
+				name = sensorThermometer
+				cid = 4294504654
+				uid = 1327320322
+				mid = 2573191481
+				launchID = 6
+				parent = 0
+				position = -0.286433935165405,0.56511116027832,2.04890966415405E-08
+				rotation = 0.1287088,0.6952944,-0.1287089,0.695294
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 0
+				sidx = -1
+				attm = 1
+				sym = 15
+				srfN = srfAttach, 0
+				mass = 0.005
+				temp = 306.597329367239
+				tempExt = 305.501901247324
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				flag = Squad/Flags/trees
+				rTrf = sensorThermometer
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleEnviroSensor
+					isEnabled = True
+					sensorActive = False
+					stagingEnabled = True
+					EVENTS
+					{
+						Toggle
+						{
+							active = True
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Toggle Display
+							guiName = Toggle Display
+							category = Toggle Display
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleScienceExperiment
+					isEnabled = True
+					Deployed = False
+					Inoperable = False
+					cooldownToGo = 0
+					stagingEnabled = True
+					EVENTS
+					{
+						DeployExperiment
+						{
+							active = True
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Deploy
+							guiName = Log Temperature
+							category = Deploy
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						CollectDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = 
+							guiName = Take Data
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1.2
+							externalToEVAOnly = True
+						}
+						ReviewDataEvent
+						{
+							active = False
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Review Data
+							guiName = Review Data
+							category = Review Data
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperiment
+						{
+							active = False
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Reset
+							guiName = Delete Data
+							category = Reset
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						DeployExperimentExternal
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Deploy
+							guiName = Log Temperature
+							category = Deploy
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperimentExternal
+						{
+							active = False
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Reset
+							guiName = Delete Data
+							category = Reset
+							guiActiveUnfocused = True
+							unfocusedRange = 1.2
+							externalToEVAOnly = True
+						}
+						CleanUpExperimentExternal
+						{
+							active = False
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Restore
+							guiName = Restore
+							category = Restore
+							guiActiveUnfocused = True
+							unfocusedRange = 1.2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Experiment: Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						DeployAction
+						{
+							actionGroup = None
+						}
+						ResetAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
+			PART
+			{
+				name = sensorThermometer
+				cid = 4294456296
+				uid = 455752373
+				mid = 2573191481
+				launchID = 6
+				parent = 0
+				position = 0.286433875560761,0.56511116027832,-4.00468707084656E-08
+				rotation = -0.1287089,0.6952939,-0.1287088,-0.6952945
+				mirror = 1,1,1
+				symMethod = Radial
+				istg = 0
+				dstg = 0
+				sqor = -1
+				sepI = 0
+				sidx = -1
+				attm = 1
+				sym = 14
+				srfN = srfAttach, 0
+				mass = 0.005
+				temp = 306.597329367239
+				tempExt = 305.501901247324
+				tempExtUnexp = 4
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				flag = Squad/Flags/trees
+				rTrf = sensorThermometer
+				modCost = 0
+				EVENTS
+				{
+				}
+				ACTIONS
+				{
+				}
+				PARTDATA
+				{
+				}
+				MODULE
+				{
+					name = ModuleEnviroSensor
+					isEnabled = True
+					sensorActive = False
+					stagingEnabled = True
+					EVENTS
+					{
+						Toggle
+						{
+							active = True
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Toggle Display
+							guiName = Toggle Display
+							category = Toggle Display
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						ToggleAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+				MODULE
+				{
+					name = ModuleScienceExperiment
+					isEnabled = True
+					Deployed = False
+					Inoperable = False
+					cooldownToGo = 0
+					stagingEnabled = True
+					EVENTS
+					{
+						DeployExperiment
+						{
+							active = True
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Deploy
+							guiName = Log Temperature
+							category = Deploy
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						CollectDataExternalEvent
+						{
+							active = False
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = 
+							guiName = Take Data
+							category = 
+							guiActiveUnfocused = True
+							unfocusedRange = 1.2
+							externalToEVAOnly = True
+						}
+						ReviewDataEvent
+						{
+							active = False
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Review Data
+							guiName = Review Data
+							category = Review Data
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperiment
+						{
+							active = False
+							guiActive = True
+							guiActiveUncommand = False
+							guiIcon = Reset
+							guiName = Delete Data
+							category = Reset
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						DeployExperimentExternal
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Deploy
+							guiName = Log Temperature
+							category = Deploy
+							guiActiveUnfocused = True
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+						ResetExperimentExternal
+						{
+							active = False
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Reset
+							guiName = Delete Data
+							category = Reset
+							guiActiveUnfocused = True
+							unfocusedRange = 1.2
+							externalToEVAOnly = True
+						}
+						CleanUpExperimentExternal
+						{
+							active = False
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Restore
+							guiName = Restore
+							category = Restore
+							guiActiveUnfocused = True
+							unfocusedRange = 1.2
+							externalToEVAOnly = True
+						}
+						ToggleStaging
+						{
+							active = True
+							guiActive = False
+							guiActiveUncommand = False
+							guiIcon = Disable Staging
+							guiName = Experiment: Disable Staging
+							category = Disable Staging
+							guiActiveUnfocused = False
+							unfocusedRange = 2
+							externalToEVAOnly = True
+						}
+					}
+					ACTIONS
+					{
+						DeployAction
+						{
+							actionGroup = None
+						}
+						ResetAction
+						{
+							actionGroup = None
+						}
+					}
+				}
+			}
 			ACTIONGROUPS
 			{
-				Stage = False, 0
+				Stage = False, 3873.19321288752
 				Gear = False, 0
 				Light = False, 0
 				RCS = False, 0
-				SAS = False, 0
+				SAS = True, 3721.95321288766
 				Brakes = False, 0
 				Abort = False, 0
 				Custom01 = False, 0
@@ -5768,9 +4781,9 @@ GAME
 			}
 			CTRLSTATE
 			{
-				pitch = 0
-				yaw = 0
-				roll = 0
+				pitch = -0.3343785
+				yaw = -1
+				roll = 0.0001575744
 				trimPitch = 0
 				trimYaw = 0
 				trimRoll = 0
@@ -5796,12 +4809,12 @@ GAME
 			dumb = 0.5
 			badS = True
 			tour = False
-			state = Assigned
+			state = Dead
 			ToD = 0
 			idx = 0
 			CAREER_LOG
 			{
-				flight = 3
+				flight = 4
 				0 = ExitVessel,Kerbin
 				0 = Flight,Kerbin
 				0 = BoardVessel,Kerbin
@@ -5815,10 +4828,13 @@ GAME
 				2 = Land,Kerbin
 				2 = ExitVessel,Kerbin
 				2 = Recover
+				3 = Flight,Kerbin
+				3 = Suborbit,Kerbin
+				3 = Die
 			}
 			FLIGHT_LOG
 			{
-				flight = 3
+				flight = 4
 			}
 		}
 		KERBAL
@@ -5875,16 +4891,22 @@ GAME
 			dumb = 0.4
 			badS = True
 			tour = False
-			state = Available
+			state = Assigned
 			ToD = 0
-			idx = -1
+			idx = 0
 			CAREER_LOG
 			{
-				flight = 0
+				flight = 1
+				0 = Flight,Kerbin
+				0 = Suborbit,Kerbin
+				0 = Land,Kerbin
+				0 = Recover
 			}
 			FLIGHT_LOG
 			{
-				flight = 0
+				flight = 1
+				1 = Flight,Kerbin
+				1 = Suborbit,Kerbin
 			}
 		}
 		KERBAL
@@ -5979,7 +5001,7 @@ GAME
 		{
 			name = Summer Kerman
 			gender = Female
-			type = Applicant
+			type = Crew
 			trait = Pilot
 			brave = 0.7598373
 			dumb = 0.7202992
@@ -6023,7 +5045,7 @@ GAME
 		{
 			name = Rachelle Kerman
 			gender = Female
-			type = Applicant
+			type = Crew
 			trait = Pilot
 			brave = 0.306419
 			dumb = 0.5516453
@@ -6097,6 +5119,50 @@ GAME
 			tour = False
 			state = Available
 			ToD = 181101.276170654
+			idx = -1
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Ferry Kerman
+			gender = Male
+			type = Unowned
+			trait = Engineer
+			brave = 0.3897136
+			dumb = 0.2625684
+			badS = False
+			tour = False
+			state = Assigned
+			ToD = 0
+			idx = -1
+			CAREER_LOG
+			{
+				flight = 0
+			}
+			FLIGHT_LOG
+			{
+				flight = 0
+			}
+		}
+		KERBAL
+		{
+			name = Malinne Kerman
+			gender = Female
+			type = Unowned
+			trait = Engineer
+			brave = 0.1544327
+			dumb = 0.7561265
+			badS = False
+			tour = False
+			state = Assigned
+			ToD = 0
 			idx = -1
 			CAREER_LOG
 			{
